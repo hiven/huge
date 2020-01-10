@@ -5,7 +5,7 @@
     "keywords": ["login", "auth", "user", "authentication", "mvc", "membership"],
     "homepage": "https://github.com/panique/huge",
     "license": "MIT",
-    "require" {
+    "require": {
         "ext-gd": "*"
     },
     "require-dev": {
