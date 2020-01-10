@@ -69,13 +69,6 @@ return array(
     'DB_PORT' => '3306',
     'DB_CHARSET' => 'utf8',
     /**
-     * Configuration for: Captcha size
-     * The currently used Captcha generator (https://github.com/Gregwar/Captcha) also runs without giving a size,
-     * so feel free to use ->build(); inside CaptchaModel.
-     */
-    'CAPTCHA_WIDTH' => 359,
-    'CAPTCHA_HEIGHT' => 100,
-    /**
      * Configuration for: Cookies
      * 1209600 seconds = 2 weeks
      * COOKIE_PATH is the path the cookie is valid on, usually "/" to make it valid on the whole domain.
