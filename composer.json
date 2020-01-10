@@ -5,10 +5,12 @@
     "keywords": ["login", "auth", "user", "authentication", "mvc", "membership"],
     "homepage": "https://github.com/panique/huge",
     "license": "MIT",
+    "require" {
+        "ext-gd": "*"
+    },
     "require-dev": {
         "php": ">=5.5.0",
         "phpmailer/phpmailer": "~6.0",
-        "ext-gd": "*",
         "gregwar/captcha": "1.*",
         "phpunit/phpunit": "4.8.*|5.7.*"
     },
