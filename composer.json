@@ -8,9 +8,9 @@
     "require-dev": {
         "php": ">=5.5.0",
         "phpmailer/phpmailer": "~6.0",
+        "ext-gd": "*",
         "gregwar/captcha": "1.*",
-        "phpunit/phpunit": "4.8.*|5.7.*",
-        "ext-gd": "*"
+        "phpunit/phpunit": "4.8.*|5.7.*"
     },
     "autoload": {
         "psr-4": { "": ["application/core/", "application/model/"] }
